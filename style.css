@@ -1,0 +1,106 @@
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+.container img{
+  margin-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  border: none;
+  height:780px;
+  width:400px;
+}
+
+.form-container button{
+  background-color: #3A81D1;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+  width: 100%;
+}
+
+
+.form-container button:hover{
+  background-color: #7DA8FE;
+  color: white;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  color: grey;
+}
+
+h2:before, h2:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid #D3D3D3;
+  margin: auto;
+}
+
+form {
+  width:100%;
+}
+
+form input {
+  width:100%;
+  padding:20px;
+  box-sizing:border-box;
+  margin-bottom: 20px;
+  justify-content: 0 auto;
+}
+
+p1 {
+  color: grey;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Console", monospace;
+}
+
+p2 {
+  color: grey;
+  text-align: center;
+  color: grey;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Console", monospace;
+}
+
+.footer-menu{
+  background-color: none;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-menu a{
+  float: left;
+    display: block;
+    color: #140B0A;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 13px;
+}
